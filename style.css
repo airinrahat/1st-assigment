@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,serif;
+   
+}
+body{
+    background: url("https://files.123freevectors.com/wp-content/original/4417-dark-turquoise-bokeh-light-background-vector.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ .logo{
+    margin-left: 20px;
+    font-size: 23px;
+    
+
+}
+.logo a{
+    text-decoration: none;
+    color:  #00d7c3;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+nav ul li {
+    list-style: none;
+    margin-right:  20px;
+    display: inline;
+    padding: 15px 10px;
+   /* width: 170px; */
+}
+nav ul li a{
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color:  #00d7c3;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+ h1{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    /* position: absolute;
+    padding: 0;
+    width: 35;
+    margin-left: auto;
+    margin-right: auto;
+} */
+ }
+ button{
+    margin-left: 619px;
+    margin-top: 22px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+    width: 113px;
+    height: 41px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    text-align: center;
+    text-transform: uppercase;
+}
+button:hover{
+    box-shadow: 8px 8px rgb(29, 27, 27);
+  transition: .3s;
+}
+  
+h1 span{
+    color: black;
+}
+.mar{
+    font-size: 30px;
+    background-color: black;
+    color: #00d7c3;
+    padding: 8px 0;
+}
